@@ -94,6 +94,7 @@ body {
 
 .estrutura footer {
     text-align: right;
+    margin-top: 40px;
 }
 
 .estrutura footer p {
@@ -118,13 +119,23 @@ body {
         gap: 0px;
     }
 
+    .estrutura {
+    max-width: 960px;
+    height: 75vh;
+    margin-top: 20% ;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
     .estrutura blockquote div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1;
     align-items: center;
-}
-
+    }
     
 }
